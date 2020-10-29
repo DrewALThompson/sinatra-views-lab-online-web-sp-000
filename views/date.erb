@@ -7,6 +7,6 @@
   <body>
     <h1>Today</h1>
     <%= d.DateTime.new(2020, 10, 29)%>
-    <p><%= d.strftime("The date is Thursday, d.strftime(%%B%)" %></p>
+    <p><%= d.strftime("The date is " + d.strftime(%e, %B%)" %></p>
   </body>
 </html>
